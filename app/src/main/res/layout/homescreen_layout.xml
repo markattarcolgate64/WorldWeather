@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/home_padding"
+    android:layout_alignEnd="@+id/search_box">
+
+
+    <AutoCompleteTextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_box"
+        android:textSize= "14dp"
+        android:text="Enter Location"
+        android:layout_margin="20dp"
+
+
+        />
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_button"
+        android:text="@string/search"
+        android:layout_toRightOf="@+id/search_box"
+
+        />
+
+
+
+</RelativeLayout>
