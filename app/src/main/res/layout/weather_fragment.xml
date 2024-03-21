@@ -4,4 +4,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City Name"
+        android:textSize="20sp"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/cityName"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="00"
+        android:layout_gravity="center_horizontal"
+        />
+<!--    We'll need a card to put beneath this-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weather_description"
+        android:layout_gravity="center_horizontal"
+        android:text="Mostly Cloudy"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/high_low"
+        android:layout_gravity="center_horizontal"
+        android:text= "H:00 L:00 "
+
+        />
+<!--    Need some kind of vector image behind this -->
+<!--    There would need to be some kind of card describing like humidity or other metrics -->
+<!--    Button for seven-day forecast at the bottom -->
+
 </LinearLayout>
