@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">WorldWeather</string>
     <string name="search">Search</string>
+    <string name="weatherActiv">Weather Activity</string>
+    <string name="highLow">H:%2$d L:%2$d</string>
+    <string name="temp">%2d°</string>
+    <string name="high">%2d°</string>
+    <string name="low">%2d°</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="celsius">Celsius</string>
+
+
+
 
 </resources>

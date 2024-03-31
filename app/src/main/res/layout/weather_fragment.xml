@@ -2,25 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:id="@+id/weather_fragment"
+    android:background="@drawable/firefly_lightly_cloudy_sky_background_for_mobile_weather_app_87031">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="City Name"
-        android:textSize="20sp"
-        android:layout_marginTop="32dp"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"
         android:layout_gravity="center_horizontal"
         android:id="@+id/cityName"
+        android:textColor="@android:color/white"
 
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="50dp"
-        android:text="00"
+        android:textSize="80dp"
+        android:text="@string/temp"
         android:layout_gravity="center_horizontal"
+        android:id="@+id/temperature"
+        android:textColor="@android:color/white"
+
+
         />
 <!--    We'll need a card to put beneath this-->
     <TextView
@@ -29,6 +36,9 @@
         android:id="@+id/weather_description"
         android:layout_gravity="center_horizontal"
         android:text="Mostly Cloudy"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+
         />
 
     <TextView
@@ -36,11 +46,25 @@
         android:layout_height="wrap_content"
         android:id="@+id/high_low"
         android:layout_gravity="center_horizontal"
-        android:text= "H:00 L:00 "
+        android:text= "H:00 L:00"
+        android:textColor="@android:color/white"
+
 
         />
-<!--    Need some kind of vector image behind this -->
+
+    <Button
+        android:id="@+id/sevenDay"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:text="Seven-day forecast"
+        android:background="@drawable/seven_button"
+        />
+    <!--    Need some kind of vector image behind this -->
 <!--    There would need to be some kind of card describing like humidity or other metrics -->
 <!--    Button for seven-day forecast at the bottom -->
+
+
 
 </LinearLayout>

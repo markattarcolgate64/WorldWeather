@@ -7,6 +7,12 @@
     android:layout_alignEnd="@+id/search_box">
 
 
+<!--    <fragment android:id="@+id/autocomplete_fragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"-->
+<!--        />-->
+
     <AutoCompleteTextView
         android:layout_width="150dp"
         android:layout_height="wrap_content"
@@ -26,7 +32,6 @@
         android:layout_toRightOf="@+id/search_box"
 
         />
-
 
 
 </RelativeLayout>
